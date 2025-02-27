@@ -1,4 +1,5 @@
 /* Apply the Techlink Theme */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -7,7 +8,9 @@ body {
     text-align: center;
 }
 
+
 /* Navbar Styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,13 +23,17 @@ body {
     left: 0;
 }
 
+
 /* Logo */
+
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
 
+
 /* Navigation Links */
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -43,7 +50,9 @@ body {
     font-size: 18px;
 }
 
+
 /* Login Button */
+
 .login-btn {
     background: #00FFFF;
     color: black;
@@ -53,7 +62,9 @@ body {
     border-radius: 5px;
 }
 
+
 /* Hero Section */
+
 .hero {
     margin-top: 100px;
     padding: 50px 20px;
@@ -68,7 +79,9 @@ body {
     font-size: 1.2em;
 }
 
+
 /* Call-to-Action Button */
+
 .cta-btn {
     background: white;
     color: black;
