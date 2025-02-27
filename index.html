@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techlink - Connect with Services</title>
+    <title>Techlink - Connect with Experts</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <!-- 🌙 Dark Mode Toggle -->
+    <button id="darkModeToggle">🌙 Dark Mode</button>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo">Techlink</div>
-        <ul class="nav-links">
+    <!-- 🔹 Navigation Bar -->
+    <nav>
+        <h1 class="logo">Techlink</h1>
+        <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <button class="login-btn">Login</button>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- 🎯 Hero Section -->
     <section class="hero">
-        <h1>Find the Best Service Providers Instantly</h1>
-        <p>Techlink connects you with skilled professionals for any job.</p>
+        <h1><span id="typewriter"></span></h1>
+        <p>Connecting you to top professionals instantly.</p>
         <button class="cta-btn">Get Started</button>
     </section>
 
-</body>
+    <!-- 🔍 Service Search -->
+    <section class="search-section">
+        <input type="text" id="searchBar" placeholder="Search services...">
+        <ul id="serviceList">
+            <li>Plumbing</li>
+            <li>Electrician</li>
+            <li>Car Repair</li>
+            <li>Software Development</li>
+            <li>Graphic Design</li>
+        </ul>
+    </section>
 
+    <!-- 🌟 Testimonials Section -->
+    <section class="testimonials">
+        <p id="testimonial">"Great service!" - John</p>
+    </section>
+
+    <!-- 💬 Floating Chatbot -->
+    <div id="chatbot">
+        <button id="chatbotToggle">💬 Chat</button>
+        <div id="chatContainer" class="hidden">
+            <p>Hi! How can I assist you?</p>
+        </div>
+    </div>
+
+    <!-- ⬆ Scroll to Top Button -->
+    <button id="scrollTopBtn">⬆ Top</button>
+
+    <script src="script.js"></script>
+</body>
 </html>
